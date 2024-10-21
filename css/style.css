@@ -1,0 +1,228 @@
+  a {
+    text-decoration:none;
+  }
+
+  body {
+    margin: 0;
+    height: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .content-wrapper1 {
+    background-image: url("/assets/9.jpg");
+    background-repeat: no-repeat;           
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+  }
+
+  .content-wrapper2 {
+    background-image: url("/assets/12.jpg");
+    background-repeat: no-repeat;           
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .content-wrapper3 {
+    background-image: url("/assets/c.jpg");
+    background-repeat: no-repeat;           
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 86vh;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+  }
+
+  .produk {
+    float: left;
+    padding: 5px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 5  0%; 
+    margin: 200px;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  form {
+    display: grid;
+    padding: 10px 0px;
+  }
+
+  label {
+    margin: 5px 0px;
+    margin-top: 20px;
+  }
+
+  input {
+    display: block;
+    border: none;
+    background-color: rgb(248, 248, 248);
+  }
+
+  input ::before {
+    display: block;
+    border: none;
+    background-color: rgb(248, 248, 248);
+  }
+
+  input ::after {
+    display: block;
+    border: none;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .sign-in-button {
+    background-color: rgba(231, 231, 231, 0.322);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    margin: 0;
+  }
+
+  .sign {
+    font-size: normal;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .sign:hover {
+    font-size: large;
+  }
+
+  .About {
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 50%;
+    font-size: 25px;
+  }
+
+  footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .facebook-button {
+    background-color: #3b5998;
+  }
+
+  .facebook-button:hover {
+    background-color: #2d4373;
+  }
+
+  .instagram-button {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+  }
+
+  .instagram-button:hover {
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+  }
+
+  .twitter-button {
+    background-color: #1da1f2;
+  }
+
+  .twitter-button:hover {
+    background-color: #0d95e8;
+  }
+
+  .copyright {
+  font-size: 10px;
+  text-align: center;
+  color: rgb(161, 161, 161);
+  padding: 5px; 
+  border-radius: 10px;
+  box-sizing: border-box; 
+  width: 50%;
+  margin: 5px auto;
+  display: block;
+}
