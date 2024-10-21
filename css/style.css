@@ -27,7 +27,7 @@
   }
 
   .content-wrapper1 {
-    background-image: url("../assets/9.jpg");
+    background-image: url('../assets/9.jpg');
     background-repeat: no-repeat;           
     background-size: cover;
     background-position-y: bottom;
@@ -45,7 +45,7 @@
   }
 
   .content-wrapper2 {
-    background-image: url("../assets/12.jpg");
+    background-image: url('../assets/12.jpg');
     background-repeat: no-repeat;           
     background-size: cover;
     display: flex;
@@ -62,7 +62,7 @@
   }
   
   .content-wrapper3 {
-    background-image: url("../assets/c.jpg");
+    background-image: url('../assets/c.jpg');
     background-repeat: no-repeat;           
     background-size: cover;
     display: flex;
